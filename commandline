@@ -1,0 +1,9 @@
+# Scans for devices on network
+sudo arp-scan 192.168.1.0/24
+
+#SSH in to something (-X for scripts with GUI??)
+ssh -X pi@192.168.43.217
+
+#check ip configuration
+ifconfig
+
