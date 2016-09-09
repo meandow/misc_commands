@@ -7,3 +7,20 @@ ssh -X pi@192.168.43.217
 #check ip configuration
 ifconfig
 
+#create git folder
+git init myfolder
+
+#create readme
+nano README
+
+#addin a file
+git add README
+
+#committing a repo
+git commit -m "random note"
+
+#adding the git to remote host
+git remote add origin https://github.com/Meandow/myfolder.git
+
+#pushing git
+git push origin master
