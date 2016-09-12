@@ -24,3 +24,22 @@ git remote add origin https://github.com/Meandow/myfolder.git
 
 #pushing git
 git push origin master
+
+#pulling from git
+git pull origin master
+
+#check currrent directory
+pwd
+
+#scp from one point to another
+scp file.py pi@192.168.43.217:/home/pi
+
+#qmake on rpi
+/usr/local/qt5/bin/qmake 
+
+#compile
+make
+
+#run the program
+./hauler
+
